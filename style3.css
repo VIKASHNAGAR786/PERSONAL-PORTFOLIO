@@ -391,6 +391,14 @@ section {
     height: 1vw;
     margin: 0 1.2vw;
 }
+@-webkit-keyframes mobe {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
 
 @keyframes mobe {
     0% {
