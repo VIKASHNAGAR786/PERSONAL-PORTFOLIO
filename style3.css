@@ -12,9 +12,10 @@
     --bg-color: #101317;
     --second-bg-color: #17191b;
     --text-color: white;
-    --main-color: rgb(255,34,0);
+    --main-color: rgba(0, 255, 89, 0.883);
 }
 html {
+
     font-size: 62.5%;
 }
 body {
@@ -67,6 +68,9 @@ section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
+
+
+
 .home {
     display: flex;
     justify-content: center;
@@ -206,6 +210,9 @@ section {
     box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
 }
 
+
+
+
 /* ------- services------- */
 
 /* body { */
@@ -261,7 +268,7 @@ section {
 /*  */
 
 .heading .highlight {
-    color: #ff0000;
+    color: #1ac862;
 }
 
 .service-container {
@@ -333,7 +340,7 @@ section {
 }
 
 .navbar a:hover {
-    color: #ff0000;
+    color: #9939c9;
 }
 
 /* #moving-div { */
@@ -390,14 +397,6 @@ section {
 #moving-div .move img {
     height: 1vw;
     margin: 0 1.2vw;
-}
-@-webkit-keyframes mobe {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
 }
 
 @keyframes mobe {
@@ -803,4 +802,192 @@ textarea:focus {
     }
 }
 
+
+
+/* BACKGROUND ANIMATION */
+
+
+/* FOR HOME */
+#home {
+    /* height: 100vh; Ensures the section takes the full viewport height */
+    /* display: flex; Centers content inside */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-family: Arial, sans-serif; */
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+            animation: color-change-3x 4s linear infinite alternate both;
+}
+
+/* Keyframes for the animation */
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
+
+/* for about */
+#about {
+    /* height: 100vh; Ensures the section takes the full viewport height */
+    /* display: flex; Centers content inside */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-family: Arial, sans-serif; */
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+            animation: color-change-3x 4s linear infinite alternate both;
+}
+
+/* Keyframes for the animation */
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
+/* for services */
+#services {
+    /* height: 100vh; Ensures the section takes the full viewport height */
+    /* display: flex; Centers content inside */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-family: Arial, sans-serif; */
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+            animation: color-change-3x 4s linear infinite alternate both;
+}
+
+/* Keyframes for the animation */
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
+/* for projects */
+
+#projects {
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+            animation: color-change-3x 4s linear infinite alternate both;
+}
+
+/* Keyframes for the animation */
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
+/* for contact */
+
+#contact {
+    /* height: 100vh; Ensures the section takes the full viewport height */
+    /* display: flex; Centers content inside */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* font-family: Arial, sans-serif; */
+    -webkit-animation: color-change-3x 4s linear infinite alternate both;
+            animation: color-change-3x 4s linear infinite alternate both;
+}
+
+/* Keyframes for the animation */
+@-webkit-keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+@keyframes color-change-3x {
+    0% {
+        background: #19dcea;
+    }
+    50% {
+        background: #b22cff;
+    }
+    100% {
+        background: #ea2222;
+    }
+}
+
+
+/* /button animation */
+
+/* Add the animation class */
+.btn {
+    -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+            animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+/* Add the keyframes */
 
